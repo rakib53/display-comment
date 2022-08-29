@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     font-family: "Poppins", sans-serif;
+}
+
+.container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.comment-container {
+     max-width: 800px;
+     margin: 100px auto;
+     background-color: #fff;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+     border-radius: 10px;
+     overflow: hidden;
+}
+
+.title {
+     text-align: center;
+     font-size: 25px;
+     padding-top: 10px;
+}
+
+.comment-wrappers {
+     margin: 20px 0;
+}
+
+.comment-area {
+     padding: 10px;
+}
+
+.comments {
+     padding: 5px 20px;
+}
+
+.comment-image {
+     font-size: 30px;
+     padding-top: 5px;
+}
+
+.comment-body {
+     display: flex;
+     gap: 20px;
+}
+
+.comment {
+     margin: 10px 0;
+}
+
+.type-comment {
+     width: 100%;
+     padding: 25px;
+     border: none;
+     outline: none;
+     font-size: 20px;
+     background-color: #dfdcdc;
+}
+
+.form {
+     position: relative;
+}
+
+.send-button {
+     position: absolute;
+     top: 50%;
+     right: 10px;
+     transform: translate(-50%, -50%);
+     border-radius: 50px;
+}
+
+.send-button i {
+     font-size: 20px;
+     padding: 10px 25px;
+     border-radius: 50px;
+     color: #000000;
+     cursor: pointer;
+     background-color: rgb(0, 214, 171);
+}
